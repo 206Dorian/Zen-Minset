@@ -14,5 +14,9 @@ body {
 }
 
 h1 {
-    color: #708090;
+    color: var(--bronze);
+}
+
+h2 {
+    color: var(--medium-gray);
 }
