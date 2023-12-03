@@ -1,0 +1,18 @@
+:root {
+    --dark-blue: #0E1A40;
+    --deep-blue: #222F5B;
+    --silvery-blue: #708090; /* This is Slate Gray, adjusting later */
+    --medium-gray: #5D5D5D;
+    --bronze: #946B2D;
+    --black: #000000;
+}
+
+body {
+    background-color: var(--dark-blue);
+    color: var(--silvery-blue);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #708090;
+}
