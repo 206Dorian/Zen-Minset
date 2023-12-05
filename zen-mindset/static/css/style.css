@@ -15,8 +15,27 @@ body {
 
 h1 {
     color: var(--bronze);
+
 }
 
 h2 {
+    color: var(--medium-gray);
+}
+
+/* CSS for centering h1 within the header */
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: var(--bronze);
+}
+
+/* CSS for centering h2 within the main section */
+main {
+    text-align: center;
+}
+
+main h2 {
     color: var(--medium-gray);
 }

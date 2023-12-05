@@ -7,7 +7,43 @@
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 
-
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zen Mindset App</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <style>
+            /* CSS for the card container */
+            .card {
+                background-color: var(--dark-blue);
+                color: var(--silvery-blue);
+                border: 1px solid var(--bronze);
+                padding: 20px;
+                text-align: center;
+                width: 300px; /* Adjust the width as needed */
+                margin: 0 auto; /* Center the card horizontally */
+            }
+    
+            /* CSS for h1 and h2 */
+            .card h1 {
+                color: var(--bronze);
+            }
+    
+            .card h2 {
+                color: var(--medium-gray);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <h1>Your H1 Content</h1>
+            <h2>Your H2 Content</h2>
+        </div>
+    </body>
+    </html>
+    
      
 </head>
 <body>
