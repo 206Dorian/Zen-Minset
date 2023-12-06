@@ -49,3 +49,24 @@ h3 {
     color: var(--bronze);
     font-size: 1.5em;
 }
+
+.footer {
+    background-color: var(--deep-blue
+    );
+    width: 65%;  /* set width to 100% */
+    
+    text-align: center;
+    color: var(--bronze);
+    border-radius: .5rem;
+    clear: both;
+    border: 7px solid var(--white);
+    border-radius: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+p{
+    color: var(--bronze);
+}
