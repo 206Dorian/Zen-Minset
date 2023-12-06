@@ -2,7 +2,7 @@
     --dark-blue: #0E1A40;
     --deep-blue: #222F5B;
     --silvery-blue: #708090; /* This is Slate Gray, adjusting later */
-    --medium-gray: #5D5D5D;
+    --medium-gray: #464646;
     --bronze: #946B2D;
     --black: #000000;
 }
@@ -14,7 +14,7 @@ body {
 }
 
 .centered-div {
-    background-color: var(--deep-blue);
+    background-color: var(--dark-blue);
     width: 80%; /* Takes up 50% of the screen width */
     height: 150%;
     margin: 0 auto; 
@@ -23,13 +23,13 @@ body {
 
 
 h1 {
-    color: var(--bronze);
+    color: var(--black);
     font-size: 3.5em; /* Double the font size */
 
 }
 
 h2 {
-    color: var(--bronze);
+    color: var(--black);
     font-size: 2.5em; /* Double the font size */
 }
 
@@ -47,7 +47,7 @@ main {
 
 h3 {
     color: var(--bronze);
-    font-size: 1.5em;
+    font-size: 2.0em;
 }
 
 .footer {
@@ -65,8 +65,10 @@ h3 {
     margin-top: 20px;
     margin-bottom: 20px;
     margin: auto;
+    
 }
 
 p{
-    color: var(--bronze);
+    color: var(--black);
+    font-size: 2.0em;
 }
