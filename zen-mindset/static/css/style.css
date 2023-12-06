@@ -5,6 +5,7 @@
     --medium-gray: #464646;
     --bronze: #946B2D;
     --black: #000000;
+    --light-tan: #948369;
 }
 
 body {
@@ -60,10 +61,10 @@ h3 {
     border-radius: .5rem;
     clear: both;
     border: 7px solid var(--white);
-    border-radius: 20px;
-    font-size: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin: auto;
     
 }
