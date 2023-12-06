@@ -8,13 +8,13 @@
 }
 
 body {
-    background-color: var(--deep-blue);
+    background-color: var(--silvery-blue);
     color: var(--silvery-blue);
     font-family: 'Nova Square', sans-serif;
 }
 
 .centered-div {
-    background-color: var(--silvery-blue);
+    background-color: var(--deep-blue);
     width: 80%; /* Takes up 50% of the screen width */
     height: 150%;
     margin: 0 auto; 
@@ -46,6 +46,6 @@ main {
 }
 
 h3 {
-    color: var(--dark-blue);
+    color: var(--bronze);
     font-size: 1.5em;
 }
