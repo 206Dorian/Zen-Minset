@@ -16,7 +16,7 @@ body {
 
 .centered-div {
     background-color: var(--dark-blue);
-    width: 60%; 
+    width: 80%; 
     height: 150%;
     margin: 0 auto; 
     padding: 20px; 
