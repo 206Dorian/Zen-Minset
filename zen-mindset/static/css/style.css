@@ -1,7 +1,7 @@
 :root {
-    --dark-blue: #0E1A40;
-    --deep-blue: #222F5B;
-    --silvery-blue: #708090; /* This is Slate Gray, adjusting later */
+    --dark-blue: #0e1a24;
+    --deep-blue: #19264e;
+    --silvery-blue: #50708a; /* This is Slate Gray, adjusting later */
     --medium-gray: #464646;
     --bronze: #946B2D;
     --black: #000000;
@@ -48,7 +48,7 @@ main {
 }
 
 h3 {
-    color: var(--bronze);
+    color: var(--light-tan);
     font-size: 2.0em;
 }
 
@@ -57,7 +57,7 @@ h3 {
     width: 65%;  /* set width to 100% */
     
     text-align: center;
-    color: var(--bronze);
+    color: var(--light-tan);
     border-radius: .5rem;
     clear: both;
     border: 7px solid var(--white);
