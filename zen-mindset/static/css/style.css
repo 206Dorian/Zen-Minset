@@ -1,6 +1,6 @@
 :root {
     --dark-blue: #0e1a24;
-    --deep-blue: #19264e;
+    --deep-blue: #023047;
     --silvery-blue: #50708a; /* This is Slate Gray, adjusting later */
     --medium-gray: #464646;
     --bronze: #946B2D;
@@ -15,7 +15,7 @@ body {
 }
 
 .centered-div {
-    background-color: var(--dark-blue);
+    background-color: var(--deep-blue);
     width: 80%; 
     height: 150%;
     margin: 0 auto; 
@@ -71,6 +71,6 @@ h3 {
 }
 
 p{
-    color: var(--black);
+    color: var(--light-tan);
     font-size: 2.0em;
 }
