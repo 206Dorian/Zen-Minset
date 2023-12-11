@@ -17,11 +17,12 @@ body {
 
 .centered-div {
     background-color: var(--deep-blue);
-    width: 80%; 
-    height: 150%;
-    margin: 0 auto; 
+    width: 60%; 
+    height: 100%;
+    margin: 0 left; 
     padding: 20px; 
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
 }
 
 
@@ -38,7 +39,8 @@ h2 {
 
 /* CSS for centering h1 within the header */
 header {
-    text-align: center;
+    text-align: right;
+    opacity: 0.9;
 }
 
 
@@ -69,6 +71,7 @@ h3 {
     margin: auto;
     border: 7px solid white;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
 }
 
 p{
@@ -84,9 +87,9 @@ p{
     height: 100%;
     z-index: -1; /* Place it behind other content */
 
-    background-image: url('/media/zenimagery.jpg'); /* Adjust the path as needed */
+    background-image: url('/static/media/zenimagery.jpg'); /* Adjust the path as needed */
     background-size: cover;
     background-position: center;
+    opacity: 0.8;
 }
 
-media\zenimagery.jpg
