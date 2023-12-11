@@ -6,6 +6,7 @@
     --bronze: #946B2D;
     --black: #000000;
     --light-tan: #948369;
+    --coral: #FF6B6B;
 }
 
 body {
@@ -57,7 +58,7 @@ h3 {
     width: 65%;  /* set width to 100% */
     
     text-align: center;
-    color: var(--light-tan);
+    color: var(--coral);
     border-radius: .5rem;
     clear: both;
     border: 7px solid var(--white);
