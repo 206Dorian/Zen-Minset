@@ -39,7 +39,8 @@ h2 {
 
 /* CSS for centering h1 within the header */
 header {
-    text-align: left;
+    display: flex;
+    justify-content: flex-end; /* Align the header to the right */
     opacity: 0.9;
 }
 
@@ -71,7 +72,8 @@ h3 {
     margin-left: 0;
     border: 3px solid white;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    opacity: 0.8;
+       justify-content: flex-end; /* Align the header to the right */
+    opacity: 0.9;
 }
 
 p{
