@@ -17,13 +17,15 @@ body {
 
 .centered-div {
     background-color: var(--deep-blue);
-    width: 50%; 
+    width: 60%; 
     height: 100%;
     margin: 0 right; 
     padding: 20px; 
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     opacity: 1.0;
-    border-radius: 80% 20% 80% 20% / 80% 20% 80% 20%;
+    /* border-radius: 80% 20% 80% 20% / 80% 20% 80% 20%; */
+    border-radius: 80%; /* Makes the initial oval shape */
+    transform: skew(-20deg);
 }
 
 
@@ -46,16 +48,16 @@ header {
 }
 
 
+h3 {
+    color: var(--light-tan);
+    font-size: 1.5em;
+}
 
 /* CSS for centering h2 within the main section */
 main {
     text-align: center;
 }
 
-h3 {
-    color: var(--light-tan);
-    font-size: 1.5em;
-}
 
 .footer {
     background-color: var(--deep-blue);
@@ -71,11 +73,14 @@ h3 {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 0;
-    border: 3px solid white;
+    
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
        justify-content: flex-end; /* Align the header to the right */
     opacity: 0.9;
-    border-radius: 80% 20% 80% 20% / 80% 20% 80% 20%;
+    /* border-radius: 80% 20% 80% 20% / 80% 20% 80% 20%; */
+    border-radius: 70%; /* Makes the initial oval shape */
+    transform: skew(-15deg);
+
 }
 
 p{
@@ -97,3 +102,10 @@ p{
     opacity: 0.8;
 }
 
+.river-rock {
+    width: 150px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    background-color: var(--deep-blue); /* Your background color */
+    border-radius: 70%; /* Makes the initial oval shape */
+    transform: skew(10deg); /* Skews the shape */
+}
