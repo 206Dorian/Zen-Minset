@@ -1,7 +1,8 @@
 :root {
     --dark-blue: #0e1a24;
     --deep-blue: #023047;
-    --silvery-blue: #50708a; /* This is Slate Gray, adjusting later */
+    --silvery-blue: #50708a;
+    /* This is Slate Gray, adjusting later */
     --medium-gray: #464646;
     --bronze: #946B2D;
     --black: #000000;
@@ -15,35 +16,39 @@ body {
     font-family: 'Nova Square', sans-serif;
 }
 
-.centered-div {
+.header-div {
     background-color: var(--deep-blue);
-    width: 60%; 
+    width: 60%;
     height: 100%;
-    margin: 0 right; 
-    padding: 20px; 
+    margin-left: auto;
+    padding: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     opacity: 1.0;
     /* border-radius: 80% 20% 80% 20% / 80% 20% 80% 20%; */
-    border-radius: 80%; /* Makes the initial oval shape */
+    border-radius: 80%;
+    /* Makes the initial oval shape */
     transform: skew(-20deg);
 }
 
 
 h1 {
     color: var(--light-tan);
-    font-size: 2.5em; /* Double the font size */
+    font-size: 1.5em;
+    /* Double the font size */
 
 }
 
 h2 {
     color: var(--light-tan);
-    font-size: 2.5em; /* Double the font size */
+    font-size: 1.5em;
+    /* Double the font size */
 }
 
 /* CSS for centering h1 within the header */
 header {
     display: flex;
-    justify-content: flex-end; /* Align the header to the right */
+    justify-content: flex-end;
+    /* Align the header to the right */
     opacity: 0.9;
 }
 
@@ -61,29 +66,26 @@ main {
 
 .footer {
     background-color: var(--deep-blue);
-    width: 55%;  /* set width to 100% */
-    
+   
+    text-decoration: none;
+    width: 60%;
+    height: 60%;
     text-align: center;
     color: var(--light-tan);
     border-radius: 50px;
-    clear: both;
-    border: 7px solid var(--white);
+    justify-content: flex-end;
     border-radius: 10px;
     font-size: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-       justify-content: flex-end; /* Align the header to the right */
+    margin-left: auto; 
+    margin-top: px;
+    margin-bottom: 0px;
     opacity: 0.9;
-    /* border-radius: 80% 20% 80% 20% / 80% 20% 80% 20%; */
-    border-radius: 70%; /* Makes the initial oval shape */
+    border-radius: 70%;
     transform: skew(-15deg);
 
 }
 
-p{
+p {
     color: var(--light-tan);
     font-size: 2.0em;
 }
@@ -94,18 +96,32 @@ p{
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Place it behind other content */
+    z-index: -1;
+    /* Place it behind other content */
 
-    background-image: url('/static/media/zenimagery.jpg'); /* Adjust the path as needed */
+    background-image: url('/static/media/zenimagery.jpg');
+    /* Adjust the path as needed */
     background-size: cover;
     background-position: center;
     opacity: 0.8;
 }
 
 .river-rock {
-    width: 150px; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
-    background-color: var(--deep-blue); /* Your background color */
-    border-radius: 70%; /* Makes the initial oval shape */
-    transform: skew(10deg); /* Skews the shape */
+    background-color: var(--deep-blue);
+   
+    text-decoration: none;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    color: var(--light-tan);
+    border-radius: 50px;
+    justify-content: flex-end;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-left: auto; 
+    margin-top: px;
+    margin-bottom: 0px;
+    opacity: 0.9;
+    border-radius: 70%;
+    transform: skew(-15deg);
 }
