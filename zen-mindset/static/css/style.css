@@ -28,7 +28,7 @@ body {
     /* border-radius: 80% 20% 80% 20% / 80% 20% 80% 20%; */
     border-radius: 80%;
     /* Makes the initial oval shape */
-    transform: skew(-20deg);
+    transform: skew(-25deg);
 }
 
 
@@ -82,7 +82,7 @@ main {
     margin-bottom: 0px;
     opacity: 0.9;
     border-radius: 70%;
-    transform: skew(-15deg);
+    transform: skew(-25deg);
 
 }
 
@@ -124,5 +124,5 @@ p {
     margin-bottom: 0px;
     opacity: 0.9;
     border-radius: 70%;
-    transform: skew(-15deg);
+    transform: skew(-25deg);
 }
