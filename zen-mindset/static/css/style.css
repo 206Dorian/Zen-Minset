@@ -18,6 +18,7 @@ body {
 
 .header-div {
     background-color: var(--deep-blue);
+    text-align: center;
     width: 60%;
     height: 100%;
     margin-left: auto;
