@@ -8,7 +8,7 @@
     --bronze: #946B2D;
     --black: #000000;
     --light-tan: #948369;
-    /* --coral: #FF6B6B; */  
+    /* --coral: #FF6B6B; */
 }
 
 body {
@@ -21,8 +21,8 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    align-items: left; 
-    height: 50vh; 
+    align-items: left;
+    height: 50vh;
 }
 
 .header-div {
@@ -31,7 +31,9 @@ body {
     width: 40%;
     height: 100%;
     margin-left: auto;
-    padding: 20px;
+    margin-top: 30px;
+   
+    padding: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     opacity: 1.0;
     /* border-radius: 80% 20% 80% 20% / 80% 20% 80% 20%; */
@@ -76,9 +78,9 @@ main {
 
 .footer {
     background-color: var(--deep-blue);
-   
+
     text-decoration: none;
-    width: 35%;
+    width: 40%;
     height: 60%;
     text-align: center;
     color: var(--light-tan);
@@ -86,12 +88,12 @@ main {
     justify-content: flex-end;
     border-radius: 10px;
     font-size: 12px;
-    margin-left: auto; 
-    margin-top: px;
+    margin-left: auto;
+    margin-top: 10px;
     margin-bottom: 0px;
     opacity: 0.9;
     border-radius: 50%;
-    transform: skew(-35deg);
+    transform: skew(-20deg);
 
 }
 
@@ -118,20 +120,23 @@ p {
 
 .river-rock {
     background-color: var(--deep-blue);
-   
+
     text-decoration: none;
     width: 40%;
     height: 50%;
     text-align: center;
     color: var(--light-tan);
     /* border-radius: 50px; */
+    margin-top: 25px; /* Add margin at the top */
     justify-content: flex-end;
     border-radius: 10px;
     font-size: 10px;
-    margin-left: auto; 
+    margin-left: auto;
     margin-top: px;
     margin-bottom: 0px;
     opacity: 0.9;
     border-radius: 70%;
-    transform: skew(-40deg);
+    transform: skew(-30deg);
+    font-size: 15px;
+    
 }
