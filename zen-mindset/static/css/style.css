@@ -19,7 +19,7 @@ body {
 .header-div {
     background-color: var(--deep-blue);
     text-align: center;
-    width: 60%;
+    width: 40%;
     height: 100%;
     margin-left: auto;
     padding: 20px;
@@ -69,7 +69,7 @@ main {
     background-color: var(--deep-blue);
    
     text-decoration: none;
-    width: 60%;
+    width: 30%;
     height: 60%;
     text-align: center;
     color: var(--light-tan);
@@ -111,11 +111,11 @@ p {
     background-color: var(--deep-blue);
    
     text-decoration: none;
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 100%;
     text-align: center;
     color: var(--light-tan);
-    border-radius: 50px;
+    /* border-radius: 50px; */
     justify-content: flex-end;
     border-radius: 10px;
     font-size: 10px;
