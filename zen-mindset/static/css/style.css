@@ -78,20 +78,20 @@ main {
     background-color: var(--deep-blue);
    
     text-decoration: none;
-    width: 30%;
+    width: 35%;
     height: 60%;
     text-align: center;
     color: var(--light-tan);
     border-radius: 50px;
     justify-content: flex-end;
     border-radius: 10px;
-    font-size: 10px;
+    font-size: 12px;
     margin-left: auto; 
     margin-top: px;
     margin-bottom: 0px;
     opacity: 0.9;
-    border-radius: 70%;
-    transform: skew(-25deg);
+    border-radius: 50%;
+    transform: skew(-35deg);
 
 }
 
@@ -133,5 +133,5 @@ p {
     margin-bottom: 0px;
     opacity: 0.9;
     border-radius: 70%;
-    transform: skew(-25deg);
+    transform: skew(-40deg);
 }
