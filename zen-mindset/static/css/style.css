@@ -1,3 +1,4 @@
+/* colors contained within the app that i can easily call and keep organized */
 :root {
     --dark-blue: #0e1a24;
     --deep-blue: #023047;
@@ -7,7 +8,7 @@
     --bronze: #946B2D;
     --black: #000000;
     --light-tan: #948369;
-    --coral: #FF6B6B;
+    /* --coral: #FF6B6B; */  
 }
 
 body {
@@ -16,11 +17,12 @@ body {
     font-family: 'Nova Square', sans-serif;
 }
 
+/* Made a container to hold all the divs to make spacing easier and cohesive */
 .container {
     display: flex;
     flex-direction: column;
     align-items: left; 
-    height: 50vh; /* Full viewport height */
+    height: 50vh; 
 }
 
 .header-div {
