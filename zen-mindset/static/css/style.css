@@ -42,7 +42,7 @@ body {
 }
 
 .footer {
-    background-color: var(--deep-blue);
+    background-color: var(--dark-blue);
 
     text-decoration: none;
     width: 35%;
