@@ -54,8 +54,8 @@ body {
     border-radius: 0px;
     font-size: 12px;
     margin-left: auto;
-    margin-top: 1px;
-    margin-bottom: 0px;
+    margin-top: -35px;
+    margin-bottom: 5px;
     opacity: 0.9;
     border-radius: 50%;
     transform: skew(-20deg);
@@ -68,7 +68,7 @@ body {
     width: 40%;
     height: 100%;
     margin-left: auto;
-    margin-top: 30px;
+    margin-top: 40px;
    
     padding: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
@@ -130,7 +130,7 @@ p {
     text-align: center;
     color: var(--light-tan);
     /* border-radius: 50px; */
-    margin-top: 25px; /* Add margin at the top */
+    margin-top: 35px; /* Add margin at the top */
     justify-content: flex-end;
     border-radius: 10px;
     font-size: 10px;
