@@ -63,7 +63,7 @@ body {
 }
 
 .header-div {
-    background-color: var(--deep-blue);
+    background-color: var(--dark-blue);
     text-align: center;
     width: 40%;
     height: 100%;
@@ -122,7 +122,7 @@ p {
 
 
 .river-rock {
-    background-color: var(--deep-blue);
+    background-color: var(--dark-blue);
 
     text-decoration: none;
     width: 38%;
