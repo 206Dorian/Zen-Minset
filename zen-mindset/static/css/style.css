@@ -71,8 +71,8 @@ body {
 .header-div {
     background-color: var(--dark-blue);
     text-align: center;
-    width: 30%;
-    height: 80%;
+    width: 35%;
+    height: 90%;
     margin-left: auto;
     margin-top: 40px;
    
@@ -137,7 +137,7 @@ p {
     background-color: var(--dark-blue);
 
     text-decoration: none;
-    width: 38%;
+    width: 40%;
     height: 50%;
     text-align: center;
     color: var(--light-tan);
