@@ -45,8 +45,8 @@ body {
     background-color: var(--dark-blue);
 
     text-decoration: none;
-    width: 35%;
-    height: 60%;
+    width: 40%;
+    height: 70%;
     text-align: center;
     color: var(--light-tan);
     border-radius: 50px;
@@ -59,13 +59,19 @@ body {
     opacity: 0.9;
     border-radius: 50%;
     transform: skew(-20deg);
+    transition: transform 0.5s, background-color 0.5s;
+}
 
+.footer:hover {
+    background-color: var(--black); /* Darken the background color */
+    transform: scale(1.05); /* Increase the size by 5% on hover */
+    cursor: pointer; /* Change cursor to a pointer on hover */
 }
 
 .header-div {
     background-color: var(--dark-blue);
     text-align: center;
-    width: 40%;
+    width: 30%;
     height: 80%;
     margin-left: auto;
     margin-top: 40px;
@@ -77,8 +83,14 @@ body {
     border-radius: 80%;
     /* Makes the initial oval shape */
     transform: skew(-25deg);
+    transition: transform 0.5s, background-color 0.5s;
 }
 
+.header-div:hover {
+    background-color: var(--black); /* Darken the background color */
+    transform: scale(1.05); /* Increase the size by 5% on hover */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+}
 
 h1 {
     color: var(--light-tan);
@@ -141,5 +153,11 @@ p {
     border-radius: 70%;
     transform: skew(-30deg);
     font-size: 15px;
-    
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+.river-rock:hover {
+    background-color: var(--black); /* Darken the background color */
+    transform: scale(1.05); /* Increase the size by 5% on hover */
+    cursor: pointer; /* Change cursor to a pointer on hover */
 }
