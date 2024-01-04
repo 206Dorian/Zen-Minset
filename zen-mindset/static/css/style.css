@@ -33,6 +33,21 @@ body {
     font-family: 'Nova Square', sans-serif;
 }
 
+.buttons {
+   
+    background-color: var(--bronze); 
+    color: var(--black); 
+    border: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+}
+
+.buttons:hover {
+    /* Styles for the button on hover */
+    background-color: var(--silvery-blue);
+}
+
+
 /* Made a container to hold all the divs to make spacing easier and cohesive */
 .container {
     display: flex;
@@ -71,7 +86,7 @@ body {
 .header-div {
     background-color: var(--dark-blue);
     text-align: center;
-    width: 35%;
+    width: 30%;
     height: 90%;
     margin-left: auto;
     margin-top: 40px;
@@ -137,8 +152,8 @@ p {
     background-color: var(--dark-blue);
 
     text-decoration: none;
-    width: 40%;
-    height: 50%;
+    width: 35%;
+    height: 45%;
     text-align: center;
     color: var(--light-tan);
     /* border-radius: 50px; */
