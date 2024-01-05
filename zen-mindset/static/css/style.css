@@ -40,8 +40,12 @@ body {
     border: 5px; 
     padding: 10px 20px; 
     cursor: pointer; 
+    }
+
+/* .button-container {
+    display: flex;
     flex-direction: column;
-}
+} */
 
 .buttons:hover {
     /* Styles for the button on hover */
