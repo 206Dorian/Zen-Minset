@@ -64,11 +64,10 @@ body {
 
 .footer {
     background-color: var(--dark-blue);
-
     text-decoration: none;
-    width: 40%;
-    height: 75%;
     text-align: center;
+    width: 35%;
+    height: 70%;
     color: var(--light-tan);
     border-radius: 50px;
     justify-content: flex-end;
@@ -83,19 +82,30 @@ body {
     transition: transform 0.5s, background-color 0.5s;
 }
 
+.footer a {
+    display: inline-block; /* Display links in a row */
+    margin: 0 10px; /* Optional: Add margin for spacing between links */
+    text-decoration: none;
+    color: var(--light-tan);
+}
+
+
 .footer:hover {
     background-color: var(--black); /* Darken the background color */
     transform: scale(1.05); /* Increase the size by 5% on hover */
     cursor: pointer; /* Change cursor to a pointer on hover */
 }
 
+.footer a:hover {
+    color: var(--silvery-blue); /* Change color on hover */
+}
 .header-div {
     background-color: var(--dark-blue);
     text-align: center;
-    width: 30%;
-    height: 90%;
+    width: 20%;
+    height: 70%;
     margin-left: auto;
-    margin-top: 40px;
+    margin-top: 85px;
    
     padding: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
@@ -158,8 +168,8 @@ p {
     background-color: var(--dark-blue);
 
     text-decoration: none;
-    width: 35%;
-    height: 40%;
+    width: 30%;
+    height: 50%;
     text-align: center;
     color: var(--light-tan);
     /* border-radius: 50px; */
