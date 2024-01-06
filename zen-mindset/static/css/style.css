@@ -102,8 +102,8 @@ body {
 }
 
 .footer a:hover {
-    color: var(--silvery-blue);
-    /* Change color on hover */
+    color: var(--silvery-blue) !important;
+    /* Change color on hover */   /* Add !important to prioritize this rule */
 }
 
 .header-div {
