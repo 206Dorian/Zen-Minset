@@ -34,13 +34,13 @@ body {
 }
 
 .buttons {
-   
-    background-color: var(--bronze); 
-    color: var(--black); 
-    border: 5px; 
-    padding: 10px 20px; 
-    cursor: pointer; 
-    }
+
+    background-color: var(--bronze);
+    color: var(--black);
+    border: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
 
 /* .button-container {
     display: flex;
@@ -58,7 +58,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: left;
-    height: 50vh;
+    height: 45vh;
     margin-right: 60px;
 }
 
@@ -83,22 +83,29 @@ body {
 }
 
 .footer a {
-    display: inline-block; /* Display links in a row */
-    margin: 0 10px; /* Optional: Add margin for spacing between links */
+    display: inline-block;
+    /* Display links in a row */
+    margin: 0 10px;
+    /* Optional: Add margin for spacing between links */
     text-decoration: none;
     color: var(--light-tan);
 }
 
 
 .footer:hover {
-    background-color: var(--black); /* Darken the background color */
-    transform: scale(1.05); /* Increase the size by 5% on hover */
-    cursor: pointer; /* Change cursor to a pointer on hover */
+    background-color: var(--black);
+    /* Darken the background color */
+    transform: scale(1.05);
+    /* Increase the size by 5% on hover */
+    cursor: pointer;
+    /* Change cursor to a pointer on hover */
 }
 
 .footer a:hover {
-    color: var(--silvery-blue); /* Change color on hover */
+    color: var(--silvery-blue);
+    /* Change color on hover */
 }
+
 .header-div {
     background-color: var(--dark-blue);
     text-align: center;
@@ -106,21 +113,22 @@ body {
     height: 70%;
     margin-left: auto;
     margin-top: 85px;
-   
     padding: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     opacity: 1.0;
-    /* border-radius: 80% 20% 80% 20% / 80% 20% 80% 20%; */
     border-radius: 80%;
-    /* Makes the initial oval shape */
+    /* Makes the  riverrock shape */
     transform: skew(-25deg);
     transition: transform 0.5s, background-color 0.5s;
 }
 
 .header-div:hover {
-    background-color: var(--black); /* Darken the background color */
-    transform: scale(1.05); /* Increase the size by 5% on hover */
-    cursor: pointer; /* Change cursor to a pointer on hover */
+    background-color: var(--black);
+    /* Darken the background color */
+    transform: scale(1.05);
+    /* Increase the size by 5% on hover */
+    cursor: pointer;
+    /* Change cursor to a pointer on hover */
 }
 
 h1 {
@@ -168,12 +176,13 @@ p {
     background-color: var(--dark-blue);
 
     text-decoration: none;
-    width: 30%;
+    width: 28%;
     height: 50%;
     text-align: center;
     color: var(--light-tan);
     /* border-radius: 50px; */
-    margin-top: 35px; /* Add margin at the top */
+    margin-top: 35px;
+    /* Add margin at the top */
     justify-content: flex-end;
     border-radius: 10px;
     font-size: 10px;
@@ -188,7 +197,10 @@ p {
 }
 
 .river-rock:hover {
-    background-color: var(--black); /* Darken the background color */
-    transform: scale(1.05); /* Increase the size by 5% on hover */
-    cursor: pointer; /* Change cursor to a pointer on hover */
+    background-color: var(--black);
+    /* Darken the background color */
+    transform: scale(1.05);
+    /* Increase the size by 5% on hover */
+    cursor: pointer;
+    /* Change cursor to a pointer on hover */
 }
