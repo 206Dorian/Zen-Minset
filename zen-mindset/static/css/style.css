@@ -3,8 +3,7 @@
     --dark-blue: #0e1a24;
     --deep-blue: #023047;
     --silvery-blue: #50708a;
-    /* This is Slate Gray, adjusting later */
-    --medium-gray: #464646;
+        --medium-gray: #464646;
     --bronze: #946B2D;
     --black: #000000;
     --light-tan: #948369;
@@ -22,6 +21,7 @@
     background-size: cover;
     background-position: center;
     opacity: 0.8;
+    background-color: var(--medium-gray);
 }
 
 body {
@@ -161,12 +161,42 @@ main {
 }
 
 
+.left-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%; /* Width of the left panel */
+    height: 100%;
+    padding: 20px; /* Add padding for content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:var(--medium-gray);
+}
 
+.left-panel h2 {
+    color: white; /* Text color for the heading */
+}
+
+.left-panel p {
+    color: white; /* Text color for the paragraph */
+}
+
+.left-panel button {
+    background-color: var(--bronze); /* Button background color */
+    color: var(--black); /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px; /* Add spacing between buttons */
+}
 
 p {
     color: var(--light-tan);
     font-size: 2.0em;
 }
+
 
 
 .river-rock {
