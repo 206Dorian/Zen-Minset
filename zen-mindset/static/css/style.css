@@ -58,7 +58,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: left;
-    height: 45vh;
+    height: 50vh;
     margin-right: 60px;
 }
 
@@ -74,7 +74,7 @@ body {
     border-radius: 0px;
     font-size: 12px;
     margin-left: auto;
-    margin-top: -50px;
+    margin-top: -30px;
     margin-bottom: 5px;
     opacity: 0.9;
     border-radius: 50%;
@@ -110,9 +110,9 @@ body {
     background-color: var(--dark-blue);
     text-align: center;
     width: 20%;
-    height: 70%;
+    height: 90%;
     margin-left: auto;
-    margin-top: 85px;
+    margin-top: 0px;
     padding: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     opacity: 1.0;
@@ -206,8 +206,8 @@ p {
     background-color: var(--dark-blue);
 
     text-decoration: none;
-    width: 28%;
-    height: 50%;
+    width: 30%;
+    height: 70%;
     text-align: center;
     color: var(--light-tan);
     /* border-radius: 50px; */
@@ -217,7 +217,7 @@ p {
     border-radius: 10px;
     font-size: 10px;
     margin-left: auto;
-    margin-top: px;
+    margin-top: -20px;
     margin-bottom: 0px;
     opacity: 0.9;
     border-radius: 70%;
