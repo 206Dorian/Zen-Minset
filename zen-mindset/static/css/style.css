@@ -180,6 +180,7 @@ main {
 
 .left-panel h2 {
     color: white; /* Text color for the heading */
+    font-size: 50px;
 }
 
 .left-panel p {
