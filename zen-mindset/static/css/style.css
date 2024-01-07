@@ -38,7 +38,7 @@ body {
     background-color: var(--bronze);
     color: var(--black);
     border: 5px;
-    padding: 10px 20px;
+    padding: 20px 20px;
     cursor: pointer;
 }
 
@@ -170,7 +170,7 @@ main {
     left: 0;
     width: 20%; /* Width of the left panel */
     height: 100%;
-    padding: 20px; /* Add padding for content */
+    padding: 15px; /* Add padding for content */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -190,9 +190,9 @@ main {
     background-color: var(--bronze); /* Button background color */
     color: var(--black); /* Button text color */
     border: none;
-    padding: 10px 20px;
+    padding: 20px 20px;
     cursor: pointer;
-    margin-top: 10px; /* Add spacing between buttons */
+    margin-top: 20px; /* Add spacing between buttons */
 }
 
 p {
