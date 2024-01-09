@@ -15,10 +15,10 @@
     top: 5%;
     /* Add 20% space to the top */
     bottom: 5%;
-    left: 17%;
+    left: 22%;
     /* Add 20% space to the left */
     right: 3%;
-    width: 80%;
+    width: 75%;
     /* Reduce the width to 80% */
     height: 90%;
     /* Reduce the height to 80% */
@@ -150,7 +150,7 @@ main {
 
 .left-panel {
     position: fixed;
-    top: -200px;
+    top: -50px;
     left: 0;
     width: 20%;
     /* Width of the left panel */
