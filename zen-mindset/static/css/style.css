@@ -14,7 +14,7 @@
     position: fixed;
     top: 5%;
     /* Add 20% space to the top */
-    bottom: 3%;
+    bottom: 5%;
     left: 17%;
     /* Add 20% space to the left */
     right: 3%;
@@ -183,9 +183,9 @@ main {
     border: none;
     padding: 20px 20px;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 20px;
     /* Add spacing between buttons */
-    border-radius: 10%;
+    border-radius: 55%;
 }
 
 p {
