@@ -184,8 +184,9 @@ main {
     padding: 25px 25px;
     cursor: pointer;
     margin-top: 20px;
-    border-radius: 55%;
+    /* border-radius: 55%; */
     width: auto;
+    /* transform: skew(50deg); */
 }
 
 p {
