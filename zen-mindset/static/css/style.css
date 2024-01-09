@@ -181,11 +181,11 @@ main {
     color: var(--black);
     /* Button text color */
     border: none;
-    padding: 20px 20px;
+    padding: 25px 25px;
     cursor: pointer;
     margin-top: 20px;
-    /* Add spacing between buttons */
     border-radius: 55%;
+    width: auto;
 }
 
 p {
