@@ -183,10 +183,11 @@ main {
     border: none;
     padding: 25px 25px;
     cursor: pointer;
-    margin-top: 20px;
-    /* border-radius: 55%; */
+    margin-top: 15px;
+    border-radius: 5%;
     width: auto;
     /* transform: skew(50deg); */
+    font-size: 20px;
 }
 
 p {
