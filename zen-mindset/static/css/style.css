@@ -190,6 +190,15 @@ main {
     font-size: 20px;
 }
 
+.left-panel button:hover {
+    /* background-color: var(--light-tan); */
+    /* Darken the background color */
+    transform: scale(1.05);
+    /* Increase the size by 5% on hover */
+    cursor: pointer;
+    /* Change cursor to a pointer on hover */
+}
+
 p {
     color: var(--light-tan);
     font-size: 2.0em;
