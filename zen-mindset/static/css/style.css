@@ -188,6 +188,7 @@ main {
     width: auto;
     /* transform: skew(50deg); */
     font-size: 20px;
+    opacity: 0.9;
 }
 
 .left-panel button:hover {
@@ -197,6 +198,7 @@ main {
     /* Increase the size by 5% on hover */
     cursor: pointer;
     /* Change cursor to a pointer on hover */
+    opacity: 1.0;
 }
 
 p {
