@@ -9,9 +9,9 @@ app.template_folder = "templates"
 def index():
     return render_template("index.html")
 
-@app.route("/about")
-def about():
-    return render_template("about.html")
+@app.route("/aboutus")
+def aboutus():
+    return render_template("aboutus.html")
 
 @app.route("/resources")
 def resources():
