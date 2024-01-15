@@ -28,11 +28,11 @@
     background-size: cover;
     background-position: center;
     opacity: 0.8;
-    background-color: var(--medium-gray);
+    background-color: var(--black);
 }
 
 body {
-    background-color: var(--medium-gray);
+    background-color: var(--black);
     font-family: 'Nova Square', sans-serif;
     margin: 0;
     /* Remove default body margin */
@@ -161,7 +161,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    color: var(--medium-gray);
+    color: var(--black);
 }
 
 .left-panel h2 {
