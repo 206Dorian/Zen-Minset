@@ -1,0 +1,47 @@
+:root {
+    --dark-blue: #0e1a24;
+    --deep-blue: #023047;
+    --silvery-blue: #50708a;
+    --medium-gray: #464646;
+    --bronze: #946B2D;
+    --black: #000000;
+    --light-tan: #948369;
+    /* --coral: #FF6B6B; */
+}
+
+.background {
+    position: fixed;
+    top: 5%;
+    /* Add 20% space to the top */
+    bottom: 5%;
+    left: 22%;
+    /* Add 20% space to the left */
+    right: 3%;
+    width: 75%;
+    /* Reduce the width to 80% */
+    height: 90%;
+    /* Reduce the height to 80% */
+    z-index: 0;
+    border-radius: 1%;
+    background-image: url('/static/media/zenimagery.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    background-color: var(--medium-gray);
+}
+
+body {
+    background-color: var(--medium-gray);
+    font-family: 'Nova Square', sans-serif;
+    margin: 0;
+    /* Remove default body margin */
+}
+
+.card {
+    background-color: var(--light-tan);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
