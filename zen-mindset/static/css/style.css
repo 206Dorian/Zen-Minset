@@ -27,12 +27,12 @@
     background-image: url('/static/media/zenimagery.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
-    background-color: var(--black);
+    opacity: 0.6;
+    background-color: var(--deep-blue);
 }
 
 body {
-    background-color: var(--black);
+    background-color: var(--dark-blue);
     font-family: 'Nova Square', sans-serif;
     margin: 0;
     /* Remove default body margin */
@@ -241,7 +241,8 @@ p {
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
     height: 0;
 }
 
