@@ -4,7 +4,7 @@
     --deep-blue: #023047;
     --silvery-blue: #50708a;
     --medium-gray: #464646;
-    --bronze: #946B2D;
+    --bronze: #a17d48;
     --black: #000000;
     --light-tan: #948369;
     /* --coral: #FF6B6B; */
@@ -32,7 +32,7 @@
 }
 
 body {
-    background-color: var(--dark-blue);
+    background-color: var(--medium-gray);
     font-family: 'Nova Square', sans-serif;
     margin: 0;
     /* Remove default body margin */
@@ -66,6 +66,7 @@ body {
     border-radius: 50%;
     transform: skew(-20deg);
     transition: transform 0.5s, background-color 0.5s;
+    
 }
 
 .footer a {
@@ -135,6 +136,7 @@ header {
     display: flex;
     justify-content: flex-end;
     /* Align the header to the right */
+    align-items: center;
     opacity: 0.9;
 }
 
@@ -210,7 +212,7 @@ p {
     background-color: var(--dark-blue);
 
     text-decoration: none;
-    width: 30%;
+    width: 26%;
     height: 70%;
     text-align: center;
     color: var(--light-tan);
@@ -228,6 +230,10 @@ p {
     transform: skew(-30deg);
     font-size: 15px;
     transition: transform 0.5s, background-color 0.5s;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    
 }
 
 .river-rock:hover {
