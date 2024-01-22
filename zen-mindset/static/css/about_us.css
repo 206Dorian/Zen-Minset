@@ -27,7 +27,17 @@
 }
 
 body {
-    background-color: var(--dark-blue);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+body {
+    background-color: var(--medium-gray);
     font-family: 'Nova Square', sans-serif;
     margin: 0;
     /* Remove default body margin */
@@ -47,4 +57,8 @@ h2 {
     color: white;
     /* Text color for the heading */
     font-size: 50px;
+}
+
+p {
+    display: block;
 }
