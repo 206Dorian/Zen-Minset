@@ -12,17 +12,17 @@
 .background {
     position: fixed;
     top: 50%;
-    bottom: 10%;
-    left: 25%;
-    right: 25%;
-    width: 50%;
+    bottom:15%;
+    left: 2%;
+    right: 10%;
+    width: 70%;
     height: 50%;
     z-index: 0;
     border-radius: 1%;
     background-image: url('/static/media/zenimagery.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 0.3;
+    opacity: 0.1;
     background-color: var(--dark-blue);
 }
 
