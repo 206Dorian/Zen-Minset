@@ -184,12 +184,12 @@ main {
     color: var(--black);
     /* Button text color */
     border: none;
-    padding: 25px 25px;
+    padding: 20px 20px;
     cursor: pointer;
     margin-top: 15px;
     border-radius: 5%;
     width: auto;
-    /* transform: skew(50deg); */
+    
     font-size: 20px;
     opacity: 0.9;
 }
