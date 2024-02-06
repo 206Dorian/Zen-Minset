@@ -158,7 +158,7 @@ main {
     width: 20%;
     /* Width of the left panel */
     height: 100%;
-    padding: 15px;
+    padding: 25px;
     /* Add padding for content */
     display: flex;
     flex-direction: column;
@@ -170,7 +170,7 @@ main {
 .left-panel h2 {
     color: white;
     /* Text color for the heading */
-    font-size: 50px;
+    font-size: 57px;
 }
 
 .left-panel p {
